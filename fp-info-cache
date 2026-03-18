@@ -1,4 +1,4 @@
-27268684110534292
+27270457914329916
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60202,6 +60202,13 @@ TEST PAD
 Custom-Footprints
 CUHS20S30,H3F
 CUHS20S40,H3F-2
+
+0
+2
+2
+Custom-Footprints
+FSR-41057-02-F
+PIN HEADER
 
 0
 2
