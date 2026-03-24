@@ -1523,6 +1523,46 @@
 		)
 		(uuid "f28bebf2-20a9-4340-acdb-45affa18c2bd")
 	)
+	(label "+VC"
+		(at 38.1 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a197f74-1cd9-4250-a5ff-a46a5ad0d9bb")
+	)
+	(label "+VB"
+		(at 38.1 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89b4d3f6-0b81-4b5f-ade1-685475dda47a")
+	)
+	(label "+VA"
+		(at 38.1 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d64a87f5-c497-4e45-9556-606cd4e7b9c7")
+	)
+	(label "+VD"
+		(at 107.95 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d74e57af-82b0-4c30-8793-5de4b878dadd")
+	)
 	(symbol
 		(lib_id "Custom-Symbols:solar_cell_B")
 		(at 38.1 78.74 0)
