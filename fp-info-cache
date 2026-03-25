@@ -1,4 +1,4 @@
-27275779736851030
+27279329187059867
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60291,6 +60291,13 @@ LTC4361HTS8
 8
 8
 Custom-Footprints
+LTC4380IDD-4#PBF
+Overvoltage/Surge Protection IC Variable External Switch 10-DFN (3x3)
+LTC4380IDD-4-PBF 
+0
+11
+11
+Custom-Footprints
 LTTC Transformer
 
 
@@ -60374,6 +60381,13 @@ SMA connector
 0
 3
 3
+Custom-Footprints
+SN74CB3Q3257DBQR
+IC MUX/DEMUX 4 X 2:1 16-SSOP
+SN74CB3Q3257DBQR 
+0
+16
+16
 Custom-Footprints
 SSM6K514NULF
 UDFN6B

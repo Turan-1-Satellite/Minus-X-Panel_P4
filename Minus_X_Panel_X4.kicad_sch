@@ -373,14 +373,14 @@
 				(pin passive line
 					(at -5.08 3.81 0)
 					(length 2.54)
-					(name "GND"
+					(name "3P*"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "GND"
+					(number "3P*"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -409,14 +409,14 @@
 				(pin passive line
 					(at -5.08 -3.81 0)
 					(length 2.54)
-					(name "3P*"
+					(name "GND"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "3P*"
+					(number "GND"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1275,7 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 127) (xy 151.13 127)
+			(xy 146.05 127) (xy 151.13 127)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1523,7 @@
 		)
 		(uuid "f28bebf2-20a9-4340-acdb-45affa18c2bd")
 	)
-	(label "+VC"
+	(label "+V4C"
 		(at 38.1 53.34 0)
 		(effects
 			(font
@@ -1533,7 +1533,7 @@
 		)
 		(uuid "4a197f74-1cd9-4250-a5ff-a46a5ad0d9bb")
 	)
-	(label "+VB"
+	(label "+V4B"
 		(at 38.1 102.87 0)
 		(effects
 			(font
@@ -1543,7 +1543,7 @@
 		)
 		(uuid "89b4d3f6-0b81-4b5f-ade1-685475dda47a")
 	)
-	(label "+VA"
+	(label "+V4A"
 		(at 38.1 143.51 0)
 		(effects
 			(font
@@ -1553,7 +1553,7 @@
 		)
 		(uuid "d64a87f5-c497-4e45-9556-606cd4e7b9c7")
 	)
-	(label "+VD"
+	(label "+V4D"
 		(at 107.95 137.16 0)
 		(effects
 			(font
@@ -2256,15 +2256,15 @@
 	(symbol
 		(lib_id "Custom-Symbols:3PIN_FEMALE_-XC3PIN_MALE")
 		(at 160.02 130.81 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c8f559dc-0813-41e7-9e4b-485e535dbd02")
 		(property "Reference" "U$3"
-			(at 168.91 129.325 0)
+			(at 168.91 132.295 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -2273,7 +2273,7 @@
 			)
 		)
 		(property "Value" "3PIN_FEMALE_-XC3PIN_MALE"
-			(at 168.91 133.135 0)
+			(at 168.91 128.485 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -2394,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "Custom-Symbols:GND")
-		(at 133.35 129.54 0)
+		(at 143.51 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2403,7 +2403,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbca1671-0083-4b8d-b9b3-c4bf428fada7")
 		(property "Reference" "#GND03"
-			(at 133.35 132.08 0)
+			(at 140.97 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 132.08 0)
+			(at 143.51 121.92 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -2420,7 +2420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 129.54 0)
+			(at 143.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 129.54 0)
+			(at 143.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2438,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 129.54 0)
+			(at 143.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
